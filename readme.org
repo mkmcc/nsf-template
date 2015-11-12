@@ -1,9 +1,20 @@
-this is a basic template tex file for nsf proposals.  it contains a
+This is a basic template latex file for NSF proposals.  It contains a
 skeleton proposal file with relevant instructions from the [[http://www.nsf.gov/publications/pub_summ.jsp?ods_key=gpg][2015 NSF
-grant proposal guide]].  i did my best to make sure this is accurate,
+grant proposal guide]].  I did my best to make sure this is accurate,
 but it is of course your responsibility to ensure your proposal meets
 the requirements.
 
-i also provide a ruby script to split the file into different sections
-for uploading into fastlane.  this is a little hacky and may not
-always work, but when it does, it saves you some time.
+The idea for this, along with the original draft of the code, came
+from Sarah Gille's webpage [[http://www-pord.ucsd.edu/~sgille/how_to/proposal_prep.html][here]].  The formatting is pretty basic and
+doesn't /really/ call for a latex style file.  The main thing this
+does is to update the page numbering for each section to make it easy
+for reviewers to know you're within the limits.  Starting out with a
+skeleton file like this and filling it in as you go is also an easy
+way to be sure you have all the required sections.
+
+I provide a Makefile, since I find that useful.  I recommend compiling
+with [[https://launchpad.net/rubber][rubber]], which is available via homebrew if you use an Apple
+computer.  I also provide a ruby script to split the file into
+different sections for uploading into fastlane.  This is a little
+hacky and may not always work, but when it does, it saves you some
+time.
