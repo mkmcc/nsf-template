@@ -10,7 +10,8 @@ doesn't /really/ call for a latex style file.  The main thing this
 does is to update the page numbering for each section to make it easy
 for reviewers to know you're within the limits.  Starting out with a
 skeleton file like this and filling it in as you go is also an easy
-way to be sure you have all the required sections.
+way to be sure you have all the required sections.  I also include a
+custom bibtex style file which meets the NSF requirements.
 
 I provide a Makefile, since I find that useful.  I recommend compiling
 with [[https://launchpad.net/rubber][rubber]], which is available via homebrew if you use an Apple
@@ -18,3 +19,5 @@ computer.  I also provide a ruby script to split the file into
 different sections for uploading into fastlane.  This is a little
 hacky and may not always work, but when it does, it saves you some
 time.
+
+You can check out the [[https://github.com/mkmcc/nsf-template/blob/master/example/proposal.pdf][sample]] in the example/ directory.
